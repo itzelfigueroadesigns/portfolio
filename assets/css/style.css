@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Back to top button (arrow for up)
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 15px;
-  color: #fff;
+  color: #ffffff;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color:  #6c5b44;
+  color:  #ece2d4;
 }
 .navbar .dropdown ul {
   display: block;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #6c5b44;
+  color: #92186b;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -218,14 +218,16 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #18913c;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
+
+/* mobile screen menu  */
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 14px;
-  color: #3b434a;
+  color: #074568;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #6c5b44;
@@ -263,8 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#
- {
+#hero {
   width: 100%;
   height: 100vh;
   background: url("./images/IMG_20230427_181018.jpg") top right;
@@ -317,9 +318,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
 }
 
- /* chevron when inspecting  */
+ /* chevron arrow when inspecting  */
 #hero .btn-scroll:hover {
-  color: #6c5b44;
+  color: #ece2d4;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -488,10 +489,11 @@ section {
 .about .content ul strong {
   margin-right: 10px;
 }
+/* arrows beside my information */
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #f8dff3;
+  color: #ece2d4;
   line-height: 0;
 }
 .about .content p:last-child {
@@ -684,7 +686,7 @@ color:#6c5b44;
   border-color: #074568;
 }
 .services .icon-box:hover .title a {
-  color: #92186b;
+  color: #6c5b44;
 }
 .section-title-span {
   font-size: 26px;
