@@ -636,7 +636,7 @@ color:#6c5b44;
   left: -9px;
   top: 0;
   background: #ffffff;
-  border: 2px solid #6c195b;
+  border: 2px solid #6c5b44;
 }
 
 /*--------------------------------------------------------------
@@ -807,7 +807,7 @@ color:#6c5b44;
   border: 2px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #92186b;
+  color: #6c5b44;
   /* border-color: #074568; */
 }
 .portfolio .portfolio-item {
